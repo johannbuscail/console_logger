@@ -1,0 +1,45 @@
+{
+	"name": "console.browser",
+	"version": "10.3.7",
+	"description": "Node.js doesn't show colors when it comes to logging/debugging. This package solves this problem and improves actual logging by adding a bunch of the other colors.",
+	"keywords": [
+		"colors",
+		"console",
+		"debug",
+		"debugging",
+		"terminal",
+		"colour",
+		"console",
+		"cli",
+		"string",
+		"str",
+		"style",
+		"styles",
+		"formatting",
+		"rgb",
+		"shell",
+		"command-line",
+		"text",
+		"rainbow",
+		"color",
+		"ansi",
+		"tty"
+	],
+	"scripts": {
+		"build": "tsc"
+	},
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"author": "yoyo1234",
+	"license": "ISC",
+	"dependencies": {
+		"chalk": "^4.1.0",
+		"colors": "^1.4.0"
+	},
+	"devDependencies": {
+		"@types/node": "^14.14.20",
+		"jsdoc": "^3.6.6",
+		"tsd-jsdoc": "^2.5.0",
+		"typescript": "^4.1.3"
+	}
+}
